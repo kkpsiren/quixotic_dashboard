@@ -103,7 +103,7 @@ def landing_page():
 
     st.sidebar.markdown(f""" 
 ### 💻 Github
-[kkpsiren/polygon_mega](https://github.com/kkpsiren/quixotic_dashboard)  
+[kkpsiren/quixotic_dashboard](https://github.com/kkpsiren/quixotic_dashboard)  
     """)
     with st.expander("Show queries"):
         st.markdown(f"""#### Query 1 for metrics
