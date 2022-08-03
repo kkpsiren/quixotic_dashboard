@@ -85,6 +85,8 @@ def landing_page():
             c = 'Unique Sellers'
         elif i == 'TOTAL_AVERAGE_PRICE':
             c = 'Average Price (ETH)'
+        elif i == 'SALES':
+            c = 'Number of Times Sold'
         else:
             st.write(i)
             
