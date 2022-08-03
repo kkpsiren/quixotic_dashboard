@@ -7,8 +7,8 @@ from queries import *
 import os
 import pandas as pd 
 
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 
 
 
@@ -66,8 +66,8 @@ def run_queries():
     # so sloooow
     bot = Flipsider(os.getenv('API_KEY'))
     df = bot.run(QUERY)
-    print('1 done')
+    #print('1 done')
     df2 = bot.run(QUERY2)
-    print('2 done')
+    #print('2 done')
     return df,df2
 
